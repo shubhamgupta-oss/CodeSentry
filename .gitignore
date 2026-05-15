@@ -1,0 +1,351 @@
+# Environment Variables
+.env
+.env.local
+.env.*.local
+.env.production.local
+
+*.md
+
+# Dependencies
+node_modules/
+dist/
+build/
+.pnp
+.pnp.js
+yarn.lock
+package-lock.json
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+
+# IDE and Editor configurations
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+.sublime-project
+.sublime-workspace
+*.iml
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Testing
+coverage/
+.coverage
+htmlcov/
+.nyc_output/
+.pytest_cache/
+__pycache__/
+.test-results/
+junit.xml
+
+# Production
+public/
+dist/
+build/
+*.tgz
+
+# OS Specific
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Docker
+docker-compose.override.yml
+.dockerignore
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+mongo_data/
+redis_data/
+
+# Cache files
+.cache/
+tmp/
+temp/
+*.cache
+
+# Certificates and keys
+*.pem
+*.key
+*.cert
+*.crt
+*.p12
+*.pfx
+
+# Python Virtual Environments
+venv/
+ENV/
+env/
+.venv
+pipenv/
+
+# Compiled files
+*.pyc
+*.pyo
+*.so
+*.egg
+*.egg-info/
+
+# Archive files
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# IDE specific files
+.vscode/extensions
+.vscode/settings.json
+.vscode/launch.json
+.vscode/tasks.json
+.vscode/extensions.json
+!.vscode/extensions.recommended.json
+
+# npm
+npm-debug.log
+.npm
+.eslintcache
+
+# yarn
+yarn-error.log
+.yarn/cache
+
+# Parcel
+.parcel-cache
+.parcel-build
+
+# Turbopack
+.turbo
+dist
+
+# Next.js
+.next
+out
+
+# Nuxt
+.nuxt
+dist
+
+# Gatsby
+public
+gatsby-cache
+
+# Build outputs
+*.tsbuildinfo
+
+# vuepress
+.vuepress/dist
+
+# Docusaurus
+.docusaurus
+
+# Firebase
+.firebaserc
+
+# Temporary files
+*.tmp
+*.temp
+.tmp/
+
+# API Keys and Secrets
+.secrets
+secrets.json
+credentials.json
+
+# Reports
+reports/
+*.html
+test-results/
+
+# Misc
+.tern-port
+*.swp
+*.swo
+
+# Compiled output
+lib/
+dist/
+
+# Git
+.git/
+.gitmodules
+
+# Node-RED
+.node-red/
+
+# Gatsby
+gatsby-cache/
+
+# Grunt
+.grunt/
+
+# User-specific
+.npmrc
+.pypirc
+
+# Application specific
+history.json
+.auth-cache
+cache/
+temp-files/
+downloads/
+uploads/
+
+# Backend specific (Node)
+backend/node_modules/
+backend/dist/
+backend/coverage/
+backend/.env
+backend/.env.local
+
+# Frontend specific (React)
+frontend/node_modules/
+frontend/build/
+frontend/.env
+frontend/.env.local
+frontend/public/build
+
+# Documentation
+docs/node_modules/
+
+# Archive and backup files
+*.bak
+*.backup
+*.old
+*.orig
+*~
+
+# IDE lock files
+.metal
+.metals
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# PyCharm
+.idea/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# Local history for Visual Studio Code
+.history/
+
+# Module resolution cache
+jspm_packages/
+
+# Optional npm cache directory
+.npm
+
+# Optional REPL history
+.node_repl_history
+
+# Optional eslint cache
+.eslintcache
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn integrity file
+yarn-integrity
+
+# Optional REPL history
+.node_repl_history
+
+# unit test / coverage reports
+coverage
+
+# Webpack
+.webpack/
+
+# Browserslist
+.browserslistrc
+
+# PM2
+ecosystem.config.js
+
+# Generated files
+generated/
+auto-generated/
+
+# CI/CD
+.gitlab-ci.yml.local
+.travis.yml.local
+
+# Temporary build files
+.parcel-bundle
+
+# Lock files for specific environments
+Gemfile.lock
+Pipfile.lock
+
+# Storybook
+storybook-static/
+
+# Playwright
+.auth
+test-results/
+blob-report/
+playwright-report/
+
+# Selenium
+geckodriver.log
+chromedriver.log
+
+# Test screenshots and videos
+__screenshots__/
+__videos__/
+
+# Performance
+lighthouse-results/
+performance-results/
+
+# CDN
+.cdn/
+cdn-cache/
+
+# Third party
+vendor/
+external/
+
+# Specific to this project
+analysis-results/
+scan-results/
+reports/
+exports/
