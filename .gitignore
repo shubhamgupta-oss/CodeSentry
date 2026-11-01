@@ -4,8 +4,6 @@
 .env.*.local
 .env.production.local
 
-*.md
-
 # Dependencies
 node_modules/
 dist/
@@ -65,7 +63,6 @@ __pycache__/
 junit.xml
 
 # Production
-public/
 dist/
 build/
 *.tgz
@@ -158,7 +155,7 @@ out
 dist
 
 # Gatsby
-public
+/public
 gatsby-cache
 
 # Build outputs
@@ -185,7 +182,6 @@ credentials.json
 
 # Reports
 reports/
-*.html
 test-results/
 
 # Misc
